@@ -3,25 +3,49 @@
   background-color:#ffffff;
 }
 
+h4 {
+	font-weight: bold;
+	white-space:pre;
+	text-align: center;
+	font-size: 15px;
+	border-bottom: 1px solid gray;
+}
+
+h4 > span {
+	font-size: 30px;
+}
+
 a:link {
   color:#800080;
+  font-size: 1em;
 }
 
 a:visited {
   color:#ff0000;
+  font-size: 1em;
+}
+
+span {
+	font-size: .5em;
 }
 
 #leftblock {
-  float:left;
-
+	float:left;
 }
 
 #rightblock {
-  float:right;
+	float:right;
+}
 
+#ifyou {
+	border-bottom: 1px solid gray;
 }
 
 #bottomblock {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	white-space: pre;
+	text-align: center;
   float:bottom;
   clear:both;
 }
