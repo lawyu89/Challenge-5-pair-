@@ -1,3 +1,27 @@
-html {
-  background-color: red;
+* {
+  color:#000080;
+  background-color:#ffffff;
+}
+
+a:link {
+  color:#800080;
+}
+
+a:visited {
+  color:#ff0000;
+}
+
+#leftblock {
+  float:left;
+
+}
+
+#rightblock {
+  float:right;
+
+}
+
+#bottomblock {
+  float:bottom;
+  clear:both;
 }
